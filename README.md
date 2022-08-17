@@ -37,7 +37,7 @@ Please check the package.json, you need to install something manually:
 
 ## Clone this repository
 
-$ git clone https://github.com/
+$ git clone https://github.com/victorcjimenez/DOG-API-TEST.git
 
 ## Go into the repository
 
@@ -64,3 +64,18 @@ This software uses the following open source packages:
     TypeScript
     Tailwind
     clsx https://www.npmjs.com/package/clsx
+    
+    
+## APP
+### PAGES
+The app has 3 buttons: 
+
+1. Exercices page have solved the exercices from test. 
+
+2. RandomDog page shows a random dog image.
+
+3. SelectBreed page shows 10 random images with their breeds.
+
+ ## Thank you! I hope you like it!
+
+
