@@ -37,7 +37,7 @@ Please check the package.json, you need to install something manually:
 
 ## Clone this repository
 
-$ git clone https://github.com/
+$ git clone https://github.com/victorcjimenez/DOG-API-TEST.git
 
 ## Go into the repository
 
