@@ -5,7 +5,7 @@ const Header = () => {
         <a href="https://www.linkedin.com/in/víctor-cañero-jiménez">
           <img src="/In.png" alt="linkedIn" />
         </a>
-        <a href="https://github.com/victorcjimenez?tab=repositories">
+        <a href="https://github.com/victorcjimenez/DOG-API-TEST">
           <img src="/GitHub.png" alt="github" />
         </a>
       </div>
