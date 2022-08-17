@@ -1,4 +1,4 @@
-# API DOG API TEST
+# APP DOG API TEST
 
 Hi! This is Víctor Cañero Jiménez project where I solved the test exercicies.
 
