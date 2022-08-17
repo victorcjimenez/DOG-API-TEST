@@ -1,3 +1,5 @@
+# API DOG API TEST
+
 Hi! This is Víctor Cañero Jiménez project where I solved the test exercicies.
 
 This Project a is REACT project with Next.js framework with TypeScript. Using tailwind CSS framework for the CSS.
@@ -64,18 +66,17 @@ This software uses the following open source packages:
     TypeScript
     Tailwind
     clsx https://www.npmjs.com/package/clsx
-    
-    
-## APP
-### PAGES
-The app has 3 buttons: 
 
-1. Exercices page have solved the exercices from test. 
+## APP
+
+### PAGES
+
+The app has 3 buttons:
+
+1. Exercices page have solved the exercices from test.
 
 2. RandomDog page shows a random dog image.
 
 3. SelectBreed page shows 10 random images with their breeds.
 
- ## Thank you! I hope you like it!
-
-
+## Thank you! I hope you like it!
