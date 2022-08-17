@@ -13,7 +13,7 @@ function landing() {
           CODING EXERCICE
         </h1>
         <div className="flex justify-center mt-12 md:mt-20 mb-10 grid grid-row-3 gap-6 text-center">
-          <Button text={"Small coding exercices"} onClick={() => navigateTo("/exercices")}></Button>
+          <Button text={"Small coding exercises"} onClick={() => navigateTo("/exercises")}></Button>
           <Button text={"Random dog"} onClick={() => navigateTo("/randomDog")}></Button>
           <Button
             text={"DOGS WITH THEIR BREEDS"}

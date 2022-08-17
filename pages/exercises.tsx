@@ -3,7 +3,7 @@ import Router from "next/router";
 import { useState } from "react";
 import { Button } from "../components/button";
 
-function Exercices() {
+function Exercises() {
   const [newDelay, setNewDelay] = useState<string>("0");
   const [uniq, setUniq] = useState<string[]>();
 
@@ -11,20 +11,20 @@ function Exercices() {
     Router.push(path);
   }
 
-  // EXERCICE 1 - SOLVED:
+  // EXERCISE 1 - SOLVED:
   function delay(milliseconds: number) {
     return function (v: any) {
       return new Promise((resolve) => setTimeout(() => resolve(v), milliseconds));
     };
   }
 
-  function exercice1(milliseconds: number) {
+  function exercise1(milliseconds: number) {
     Promise.resolve(42)
       .then(delay(milliseconds))
       .then(() => alert(" Hi! The promise is resolved after " + milliseconds + " milliseconds"));
   }
 
-  // EXERCICE 2 - SOLVED:
+  // EXERCISE 2 - SOLVED:
   let left = 100;
   const inc = 100;
   function animateRight(el: any) {
@@ -34,7 +34,7 @@ function Exercices() {
     }, 1000);
   }
 
-  // EXERCICE 3 - SOLVED:
+  // EXERCISE 3 - SOLVED:
   function removeDuplicates(xs: string[]) {
     setUniq(Array.from(new Set(xs)));
 
@@ -47,9 +47,9 @@ function Exercices() {
     <>
       <div className="p-4 md:px-20">
         <h2 className="text-[#18978F] text-3xl md:text-4xl mt-5 md:mt-5 text-center font-bold">
-          SMALL CODING EXERCICES
+          SMALL CODING EXERCISES
         </h2>
-        <h5 className="text-[#18978F] text-lg md:text-lg mt-5 md:mt-5 ">EXERCICE 1</h5>
+        <h5 className="text-[#18978F] text-lg md:text-lg mt-5 md:mt-5 ">EXERCISE 1</h5>
         <p>ms: number of milliseconds. Returns a Promise that is resolved after ms milliseconds</p>
 
         <form className="m-3">
@@ -67,10 +67,10 @@ function Exercices() {
             }}
           />
 
-          <Button className="mt-3" text={"Submit"} onClick={() => exercice1(+newDelay)}></Button>
+          <Button className="mt-3" text={"Submit"} onClick={() => exercise1(+newDelay)}></Button>
         </form>
 
-        <h5 className="text-[#18978F] text-lg md:text-lg mt-5 md:mt-5 ">EXERCICE 2</h5>
+        <h5 className="text-[#18978F] text-lg md:text-lg mt-5 md:mt-5 ">EXERCISE 2</h5>
         <p>
           el: element node object. Moves the element to the right by 100px over a duration of 1
           second function animateRight(el) {}
@@ -86,7 +86,7 @@ function Exercices() {
           </button>
         </div>
 
-        <h5 className="mt-20 text-[#18978F] text-lg md:text-lg mt-5 md:mt-5 ">EXERCICE 3</h5>
+        <h5 className="mt-20 text-[#18978F] text-lg md:text-lg mt-5 md:mt-5 ">EXERCISE 3</h5>
         <p>xs: array. Returns: a new array, with unique items function removeDuplicates(xs) {}</p>
 
         <div className="m-3 mb-20">
@@ -112,4 +112,4 @@ function Exercices() {
   );
 }
 
-export default Exercices;
+export default Exercises;
